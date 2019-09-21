@@ -20,17 +20,3 @@ a = b = c = 0
 y,z, r =9.2, -7.6, 0
 a,b = b,a
 '''
-
-import datetime
-
-currentDT = datetime.datetime.now ()
-print ( str ( currentDT ) )
-hh = currentDT.hour
-a = 'Buenos'
-b = 'Buenas'
-if hh < 12:
-  print(a + ' ' + 'Dias')
-if hh > 12 and hh < 16:
-    print(b + ' ' + 'Tardes')
-else:
-    print(b + ' ' + 'Noches')
